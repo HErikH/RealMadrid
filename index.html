@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico.ico" type="image / x-icon">
+    <link rel="icon" href="favicon.ico.ico" type="image / x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+</head>
+<!-- Header bar -->
+<body>
+    <div class="row">
+        <div class="col-lg-12" id="header">
+            <div class="col" id="emiratesdiv">
+                <img src="emirates.png" id="emirates">
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                <img src="Adidas.jpg" id="adidas">
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1" id="dot">. . .</div>
+        </div>
+    </div>
+
+    <div id="bar">
+        <img src="reallogo.svg" id="reallogo" width="100%" alt="">
+        <div id="silverline"></div>
+        <img src="13championship.png" id="logo13" width="100%" alt="">
+    </div>
+    <!-- Header under bar -->
+    <div class="tabs" id="listdiv">
+        <ul class="list" id="list">
+            <li><a href="#" class="lists">HONOURS</a></li>
+            <div class="lines"></div>
+            <li><a href="#" class="lists">FOUNDATION</a></li>
+            <div class="lines"></div>
+            <li><a href="#" class="lists">RM NEXT</a></li>
+            <div class="lines"></div>
+            <li><a href="#" class="lists">SIGN UP</a></li>
+            <div class="lines"></div>
+            <li><a href="#" class="lists">LOGIN</a></li>
+            <div class="lines"></div>
+
+            <div class="dropdown is-hoverable" id="lists">
+                <li class="dropdown-trigger" id="dropbutton">
+                    <a style="border: none;">EN<i class="fas fa-chevron-down" style="margin-left: 30%;"></i></a>
+                </li>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content">
+                        <a class="dropdown-item">Español</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" style="color: black; font-weight: 500;">ENGLISH</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Français</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">DEUTSCH</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Português</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">日本語</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">INDONESIA</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">中文</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">عربي</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lines"></div>
+        </ul>
+    </div>
+    <!-- Search bar -->
+    <div class="tabs" id="searchdiv">
+        <ul class="list" id="search">
+            <div class="dropdown is-hoverable" id="lists">
+                <li class="dropdown-trigger" id="dropbutton">
+                    <a class="lists">TICKETS</a>
+                </li>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content">
+                        <a class="dropdown-item" href="#">FOOTBALL</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">BASKETBALL</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Tour Bernabéu</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">FAQ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lines"></div>
+            <div class="dropdown is-hoverable" id="lists">
+                <li class="dropdown-trigger" id="dropbutton">
+                    <a class="lists">HOSPITALITY</a>
+                </li>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content" id="searchcontent">
+                        <a class="dropdown-item" href="#">MATCHDAY</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">SEASONAL</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">BASKETBALL</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">FAQS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">CONTACT INFORMATION</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lines"></div>
+            <li><a href="#" class="lists" id="tour">TOUR</a></li>
+            <div class="lines"></div>
+            <div class="dropdown is-hoverable" id="lists">
+                <li class="dropdown-trigger" id="dropbutton">
+                    <a class="lists">SHOP</a>
+                </li>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content" id="searchcontent2">
+                        <a class="dropdown-item" href="#">STORE LOCATOR</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">OFFICIAL KITS 20/21</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">SHOP BY PLAYER</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">TRAINING RANGE</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">MEN COLLECTION</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">WOMEN COLLECTION</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">SOUVENIRS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lines"></div>
+            <li><a href="#" class="lists" id="madridistas">MADRIDISTAS</a></li>
+            <div class="lines"></div>
+            <i class="fas fa-search" id="searchicon"
+                style="font-size: 1vw; margin: 0.1vw 0 0 2%; color: #999; cursor: pointer;"></i>
+        </ul>
+    </div>
+    <!-- Dropdown search -->
+    <div id="searchcolapse">
+        <input type="text" placeholder="Search">
+        <div id="buttonclose">
+            <button>SEARCH</button>
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+    <!-- Home 1st bar -->
+    <div class="tabs is-centered" id="tabsreal">
+        <ul class="realul">
+            <li><a class="realnavs" id="home">HOME</a></li>
+
+            <div class="dropdown is-hoverable">
+                <li class="dropdown-trigger">
+                    <a class="realnavs">FOOTBALL</a>
+                </li>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content">
+                        <a class="dropdown-item">FIRST TEAM</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">ACADEMY</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">WOMEN'S TEAM</a>
+                        <div class="lineleft"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dropdown is-hoverable">
+                <li class="dropdown-trigger">
+                    <a class="realnavs" id="basket">BASKETBALL</a>
+                </li>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content" id="dropcontent">
+                        <a class="dropdown-item">CALENDAR</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">STANDINGS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">NEWS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">VIDEOS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">PHOTO GALLERY</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">WIZINK CENTER</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">SQUAD</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">HISTORY</a>
+                        <div class="lineleft2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dropdown is-hoverable">
+                <li class="dropdown-trigger">
+                    <a class="realnavs" id="club">THE CLUB</a>
+                </li>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content" id="dropcontent2">
+                        <a class="dropdown-item">THE CLUB</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">TRANSPARENCY</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">HONOURS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">HISTORY</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">SANTIAGO BERNABEU STADIUM</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">REAL MADRID CITY</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">FOUNDATION</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">NEWS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">CONTACT AND PRESS</a>
+                        <div class="lineleft3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown is-hoverable">
+                <li class="dropdown-trigger">
+                    <a class="realnavs" id="members">MEMBERS</a>
+                </li>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content" id="dropcontent3">
+                        <a class="dropdown-item">MEMBERS SERVICES</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">MEMBERS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">SEASON TICKET HOLDER</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">ARRANGEMENTS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">BENEFITS AND DISCOUNTS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">REGULATIONS</a>
+                        <div class="lineleft4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown is-hoverable">
+                <li class="dropdown-trigger">
+                    <a class="realnavs" id="fans">FANS</a>
+                </li>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content" id="dropcontent4">
+                        <a class="dropdown-item">FUN CLUBS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">SOCIAL NETWORKS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">WALLPAPERS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">PROMOTIONS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">KID'S ZONE</a>
+                        <div class="lineleft5"></div>
+                    </div>
+                </div>
+            </div>
+            <li><a class="realnavs" id="stadium">BERNABÉU STADIUM</a></li>
+
+            <div class="dropdown is-hoverable">
+                <li class="dropdown-trigger">
+                    <a class="realnavs" id="rmtv">RMTV</a>
+                </li>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content" id="dropcontent5">
+                        <a class="dropdown-item" id="rmtvitem">REAL MADRID TV LIVE</a>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
+    <!-- Main jpg centered -->
+    <img src="madridglobal.jpg" class="img-fluid" id="madrid">
+    <!-- News bar right side -->
+    <div id="newsdiv">
+        <a href="#" id="newslabel">NEWS</a><br>
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="newsimg.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel2">NEWS</a>
+            <a href="#" id="newslabel3">19-man squad for the Clásico</a>
+            <a href="#" id="newslabel4">Real Madrid play the matchday 30 encounter at the Alfredo Di Stéfano (Saturday,
+                9pm CEST).</a>
+            <i class="far fa-play-circle"></i>
+            <a href="#" id="ilabel">SEE VIDEO</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="realmadridtv">
+        <a class="fas fa-tv">
+            <img src="tvrealsvg.svg" class="img-fluid" id="fatvrealsvg" alt="realicon">
+        </a>
+        <label id="tvlabel">REALMADRID TV</label>
+        <img src="tvrealicon.png" class="img-fluid" id="tvrealicon" alt="realicon">
+        <label id="tvrealiconlabel1">Realmadrid TV</label>
+        <div id="tvrealiconline"></div>
+        <label id="tvrealiconlabel2">Real Madrid Classic Matches: European Cup Finals (13th) La <br> Decimotercera
+            second half</label>
+        <img src="backtv.jpg" class="img-fluid" id="backtv" alt="backimg">
+    </div>
+    <div id="realmadridcalendar">
+        <a class="far fa-calendar"></a>
+        <label id="realmadridcalendarlabel">REAL MADRID CALENDAR</label>
+        <div class="dropdown-divider" style="margin-top: 4.5vw;"></div>
+        <label id="filterevents">Filter events</label>
+        <label href="#" id="allevents">All events</label>
+        <div class="dropdown-divider" style="margin-top: 3.5vw;"></div>
+        <img src="calendarrealimg.png" class="img-fluid" id="calendarrealimg">
+        <label id="realmadridcalendarlabel2">TRAINING SESSION <br> Tuesday 13,April <br> 11:00 am</label>
+        <label id="realmadridcalendarlabel3">Anfield<br> Behind closed doors. <br> Press conference: yes.</label>
+        <label id="realmadridcalendarlabel4">On tuesday the 13th of April Zidane and a player will hold <br> an online
+            press conference at 7:15pm hours.</label>
+        <div id="liverpoolrealdiv">
+            <img src="liverpool.png" class="img-fluid" id="liverpool">
+            <img src="calendarrealimg.png" class="img-fluid" id="calendarrealimg2">
+            <label id="liverpoolrealmadrid">Liverpool <br> Real Madrid</label>
+            <label id="championsleague">CHAMPIONS LEAGUE</label>
+            <label id="data">Sun, 14 Apr</label>
+            <label id="data2">21:00H <br> Anfield</label>
+        </div>
+        <div id="getaferealdiv">
+            <img src="getafe.png" class="img-fluid" id="getafe">
+            <img src="calendarrealimg.png" class="img-fluid" id="calendarrealimg3">
+            <label id="getaferealmadrid">Getafe <br> Real Madrid</label>
+            <label id="laliga">LA LIGA</label>
+            <label id="data3">Sun, 18 Apr</label>
+            <label id="data4">21:00H <br> Coliseum Alfonso Pérez</label>
+        </div>
+        <div id="completecalendar">
+            SEE THE COMPLETE CALENDAR
+        </div>
+    </div>
+    <!-- Underdivs with info -->
+    <div id="underdiv1">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="zidan.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel2">NEWS</a>
+            <a href="#" id="newslabel3">ZIDANE:"WE HAVE TO COMPETE,DEFEND WELL AND ATTACK <br>THEM"</a>
+            <a href="#" id="newslabel4">"We need another big performance to progress, we <br> won't be holding back one
+                bit",declared the boss.</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="underdiv2">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="realjpgunder.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel3">OFFICIAL ANNOUNCEMENT:SERGO RAMOS</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="underdiv3">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="nacho.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel2">NEWS</a>
+            <a href="#" id="newslabel3">COURTOIS:"WE HADE TO GIVE,DEFEND IT OUR ALL AND DIG IN, AND THAT'S <br>WHAT WE
+                DID"</a>
+            <a href="#" id="newslabel4">"The theam displayed an incredible level from a <br>defensive perspective", said
+                Nacho.</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="underdiv4">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="stadion.jpg" class="img-fluid" id="newsimg">
+            <i class="far fa-play-circle"></i>
+            <a href="#" id="newslabel2">VIDEO</a>
+            <a href="#" id="newslabel3">The Santiago Bernabéu of the 21st century: the work on the <br>new roof is
+                advancing</a>
+            <a href="#" id="newslabel4">Progress on a number of key aspects of the project: <br>retractable grandstand
+                and new car park, pedestrian <br>plaza and new building on Padre Damián.</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="underdiv5">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="foot.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel2">NEWS</a>
+            <a href="#" id="newslabel3">Benzema equals Roberto Carlos as the 4th-highest <br>appearance maker for the
+                madridistas in the European <br>Cup</a>
+            <a href="#" id="newslabel4">The Frenchman made his 109th appearance in the <br>competition at Anfield.</a>
+            <i class="far fa-play-circle"></i>
+            <a href="#" id="ilabel">SEE VIDEO</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="underdiv6">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="building.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel2">NEWS</a>
+            <a href="#" id="newslabel3">Status of Santiago Bernabéu Stadium renovation work</a>
+            <a href="#" id="newslabel4">Following the first year of redevelopment work, the <br>transformation of the
+                madridistas' stadium is now <br>apparent.</a>
+            <i class="far fa-play-circle"></i>
+            <a href="#" id="ilabel">SEE VIDEO</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="underdiv7">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="stadium.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel2">NEWS</a>
+            <a href="#" id="newslabel3">Minute’s silence to mark the 32nd anniversary of the <br>Hillsborough
+                disaster</a>
+            <a href="#" id="newslabel4">It was observed at Anfield prior to Liverpool and Real <br>Madrid’s Champions
+                League quarter-final clash.</a>
+            <i class="far fa-play-circle"></i>
+            <a href="#" id="ilabel">SEE VIDEO</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="underdiv8">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="office.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel2">NEWS</a>
+            <a href="#" id="newslabel3">Minutes from the Real Madrid Electoral Board meeting</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="underdiv9">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="group.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel2">NEWS</a>
+            <a href="#" id="newslabel3">REAL MADRID TO TAKE CHELSEA IN THE CHAMPIONS LEAGUE <br>SEMI-FINALS</a>
+            <a href="#" id="newslabel4">The first leg will take place at the Alfredo Di Stefano <br>on 27 or 28 April
+                and return away from home on 4 <br>or 5 May.</a>
+            <i class="far fa-play-circle"></i>
+            <a href="#" id="ilabel">SEE VIDEO</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="underdiv10">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="estadio.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel2">NEWS</a>
+            <a href="#" id="newslabel3">A look at the new Santiago Bernabéu</a>
+            <a href="#" id="newslabel4">It's set to become a 21st century benchmark and the <br>greatest stadium in the
+                world.</a>
+            <i class="far fa-play-circle"></i>
+            <a href="#" id="ilabel">SEE VIDEO</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <div id="underdiv11">
+        <div id="imgdiv">
+            <div id="backsilver"></div>
+            <img src="busnesmans.jpg" class="img-fluid" id="newsimg">
+            <a href="#" id="newslabel2">NEWS</a>
+            <a href="#" id="newslabel3">Gifts exchanged at Anfield</a>
+            <a href="#" id="newslabel4">Florentino Pérez presented Billy Hogan with a <br>commemorative jersey to mark
+                the meeting.</a>
+            <i class="far fa-play-circle"></i>
+            <a href="#" id="ilabel">SEE VIDEO</a>
+            <i class="fab fa-facebook-f" id="newsfa"></i>
+            <i class="fab fa-twitter" id="newstw"></i>
+        </div>
+    </div>
+    <label id="allnews">SEE ALL NEWS</label>
+    <!-- 1st slider -->
+    <div id="photosvidiossliderdiv">
+        <label id="photosvidiostext">PHOTOS AND VIDEOS</label>
+        <div id="photosvidiosslider">
+            <div class="div1">
+                <img src="photosliderimg1.jpg" class="img-fluid" id="photosliderimg1">
+                <i class="far fa-play-circle circle1"></i>
+                <i class="fas fa-share-alt share1"></i>
+                <ul id="siteshare1">
+                    <li class="fab fa-facebook-f"></li><br>
+                    <li i class="fab fa-twitter"></li>
+                </ul>
+            </div>
+            <div class="div2">
+                <img src="photosliderimg2.jpg" class="img-fluid" id="photosliderimg2">
+                <i class="far fa-play-circle circle2"></i>
+                <i class="fas fa-share-alt share2"></i>
+                <ul id="siteshare2">
+                    <li class="fab fa-facebook-f"></li><br>
+                    <li i class="fab fa-twitter"></li>
+                </ul>
+            </div>
+            <div class="div3">
+                <img src="photosliderimg3.jpg" class="img-fluid" id="photosliderimg3">
+                <i class="far fa-play-circle circle3"></i>
+                <i class="fas fa-share-alt share3"></i>
+                <ul id="siteshare3">
+                    <li class="fab fa-facebook-f"></li><br>
+                    <li i class="fab fa-twitter"></li>
+                </ul>
+            </div>
+            <div class="div4">
+                <img src="photosliderimg4.jpg" class="img-fluid" id="photosliderimg4">
+                <i class="far fa-play-circle circle4"></i>
+                <i class="fas fa-share-alt share4"></i>
+                <ul id="siteshare4">
+                    <li class="fab fa-facebook-f"></li><br>
+                    <li i class="fab fa-twitter"></li>
+                </ul>
+            </div>
+            <div class="div5">
+                <img src="photosliderimg5.jpg" class="img-fluid" id="photosliderimg5">
+                <i class="far fa-play-circle circle5"></i>
+                <i class="fas fa-share-alt share5"></i>
+                <ul id="siteshare5">
+                    <li class="fab fa-facebook-f"></li><br>
+                    <li i class="fab fa-twitter"></li>
+                </ul>
+            </div>
+            <div class="div6">
+                <img src="photosliderimg6.jpg" class="img-fluid" id="photosliderimg6">
+                <i class="far fa-play-circle circle6"></i>
+                <i class="fas fa-share-alt share6"></i>
+                <ul id="siteshare6">
+                    <li class="fab fa-facebook-f"></li><br>
+                    <li i class="fab fa-twitter"></li>
+                </ul>
+            </div>
+            <div class="7">
+                <img src="photosliderimg7.jpg" class="img-fluid" id="photosliderimg7">
+                <i class="far fa-play-circle circle7"></i>
+                <i class="fas fa-share-alt share7"></i>
+                <ul id="siteshare7">
+                    <li class="fab fa-facebook-f"></li><br>
+                    <li i class="fab fa-twitter"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- HISTORY -->
+    <div id="history">
+        <img src="historyimg.png" class="img-fluid">
+        <div id="footballhistory">
+            <label class="footlabel1">FOOTBALL HISTORY</label>
+            <img src="footballhistory.jpg" class="img-fluid img1">
+            <label class="footlabel2">Real Madrid History</label>
+        </div>
+        <div id="footballlegends">
+            <label class="footlabel3">FOOTBALL LEGENDS</label>
+            <img src="footballlegends.jpg" class="img-fluid img2">
+            <label class="footlabel4">Legendary Real Madrid players</label>
+        </div>
+        <div id="basketballhistory">
+            <label class="basketlabel1">BASKETBALL HISTORY</label>
+            <img src="basketballhistory.jpg" class="img-fluid img3">
+            <label class="basketlabel2">Real Madrid basketball history</label>
+        </div>
+        <div id="basketballlegends">
+            <label class="basketlabel3">BASKETBALL LEGENDS</label>
+            <img src="basketballlegends.jpg" class="img-fluid img4">
+            <label class="basketlabel4">Legendary Real Madrid players</label>
+        </div>
+    </div>
+    <!-- specialfeatures and number 2 slider-->
+    <div id="specialfeatures">
+        <img src="sppecialfeaturesimg.png" class="img-fluid">
+        <img src="tvrealicon.png" class="labelicon">
+        <label class="specialfeatureslabel">SPECIAL FEATURES</label>
+        <div id="specialfeatures-slider">
+            <div id="slider1">
+                <img src="bernabeu.jpg" class="img-fluid img1">
+                <img src="tvrealicon.png" class="img-fluid png1">
+                <label class="slider1-label1">SPECIAL FEATURES</label>
+                <label class="slider1-label2">The Santiago Bernabéu of the 21st century</label>
+            </div>
+            <div id="slider2">
+                <img src="distefano.jpg" class="img-fluid img2">
+                <img src="tvrealicon.png" class="img-fluid png2">
+                <label class="slider2-label1">SPECIAL FEATURES</label>
+                <label class="slider2-label2">Alfredo Di Stéfano, the best player of all <br> time</label>
+            </div>
+            <div id="slider3">
+                <img src="cube.jpg" class="img-fluid img3">
+                <img src="tvrealicon.png" class="img-fluid png3">
+                <label class="slider3-label1">SPECIAL FEATURES</label>
+                <label class="slider3-label2">The 34th league title!</label>
+            </div>
+            <div id="slider4">
+                <img src="cube2.jpg" class="img-fluid img4">
+                <img src="tvrealicon.png" class="img-fluid png4">
+                <label class="slider4-label1">SPECIAL FEATURES</label>
+                <label class="slider4-label2">Eleventh Spanish Super Cup!</label>
+            </div>
+            <div id="slider5">
+                <img src="lorenzo.jpg" class="img-fluid img5">
+                <img src="tvrealicon.png" class="img-fluid png5">
+                <label class="slider5-label1">SPECIAL FEATURES</label>
+                <label class="slider5-label2">Farewell, Lorenzo Sanz</label>
+            </div>
+            <div id="slider6">
+                <img src="goldball.jpg" class="img-fluid img6">
+                <img src="tvrealicon.png" class="img-fluid png6">
+                <label class="slider6-label1">SPECIAL FEATURES</label>
+                <label class="slider6-label2">Modric, Ballon d'Or 2018</label>
+            </div>
+            <div id="slider7">
+                <img src="winner.jpg" class="img-fluid img7">
+                <img src="tvrealicon.png" class="img-fluid png7">
+                <label class="slider7-label1">SPECIAL FEATURES</label>
+                <label class="slider7-label2">The 28th Copa del Rey!</label>
+            </div>
+            <div id="slider8">
+                <img src="groupwinner.jpg" class="img-fluid img8">
+                <img src="tvrealicon.png" class="img-fluid png8">
+                <label class="slider8-label1">SPECIAL FEATURES</label>
+                <label class="slider8-label2">La Décima</label>
+            </div>
+            <div id="slider9">
+                <img src="groupwinner2.jpg" class="img-fluid img9">
+                <img src="tvrealicon.png" class="img-fluid png9">
+                <label class="slider9-label1">SPECIAL FEATURES</label>
+                <label class="slider9-label2">The seventh Club World Cup</label>
+            </div>
+            <div id="slider10">
+                <img src="modric.jpg" class="img-fluid img10">
+                <img src="tvrealicon.png" class="img-fluid png10">
+                <label class="slider10-label1">SPECIAL FEATURES</label>
+                <label class="slider10-label2">Modric, The Best 2018 award</label>
+            </div>
+            <div id="slider11">
+                <img src="leaguenumber35.jpg" class="img-fluid img11">
+                <img src="tvrealicon.png" class="img-fluid png11">
+                <label class="slider11-label1">SPECIAL FEATURES</label>
+                <label class="slider11-label2">League number 35</label>
+            </div>
+            <div id="slider12">
+                <img src="duodec.jpg" class="img-fluid img12">
+                <img src="tvrealicon.png" class="img-fluid png12">
+                <label class="slider12-label1">SPECIAL FEATURES</label>
+                <label class="slider12-label2">La Duodécima!</label>
+            </div>
+            <div id="slider13">
+                <img src="laliga33.jpg" class="img-fluid img13">
+                <img src="tvrealicon.png" class="img-fluid png13">
+                <label class="slider13-label1">SPECIAL FEATURES</label>
+                <label class="slider13-label2">La Liga 33</label>
+            </div>
+            <div id="slider14">
+                <img src="undecima.jpg" class="img-fluid img14">
+                <img src="tvrealicon.png" class="img-fluid png14">
+                <label class="slider14-label1">SPECIAL FEATURES</label>
+                <label class="slider14-label2">La Undécima!</label>
+            </div>
+            <div id="slider15">
+                <img src="decima.jpg" class="img-fluid img15">
+                <img src="tvrealicon.png" class="img-fluid png15">
+                <label class="slider15-label1">SPECIAL FEATURES</label>
+                <label class="slider15-label2">The Tenth</label>
+            </div>
+            <div id="slider16">
+                <img src="levanta.jpg" class="img-fluid img16">
+                <img src="tvrealicon.png" class="img-fluid png16">
+                <label class="slider16-label1">SPECIAL FEATURES</label>
+                <label class="slider16-label2">The Decimotercera!</label>
+            </div>
+        </div>
+        <label id="seemore">SEE MORE SPECIAL FEATURES</label>
+    </div>
+    <!-- Cups slider -->
+    <div id="cupdiv">
+        <img src="tvrealicon.png" class="img-fluid headerpng">
+        <div id="cupslider">
+            <div id="slider1">
+                <img src="mejor.jpg" class="img-fluid img1">
+                <label>The Best Club of the 20th Century FIFA Trophy</label>
+                <strong id="strong1">1</strong>
+            </div>
+            <div id="slider2">
+                <img src="champions2017.jpg" class="img-fluid img1">
+                <label>European Cups</label>
+                <strong id="strong2">13</strong>
+            </div>
+            <div id="slider3">
+                <img src="copa.jpg" class="img-fluid img1">
+                <label>FIFA Club World Cups</label>
+                <strong id="strong3">7</strong>
+            </div>
+            <div id="slider4">
+                <img src="europe.jpg" class="img-fluid img1">
+                <label>European Super Cups</label>
+                <strong id="strong4">4</strong>
+            </div>
+            <div id="slider5">
+                <img src="ueffa2020.jpg" class="img-fluid img1">
+                <label>UEFA Cups</label>
+                <strong id="strong5">2</strong>
+            </div>
+            <div id="slider6">
+                <img src="thumb.jpg" class="img-fluid img1">
+                <label class="label1">Ligas</label>
+                <strong id="strong6">34</strong>
+            </div>
+            <div id="slider7">
+                <img src="copas.jpg" class="img-fluid img1">
+                <label class="label1">Copas del Rey</label>
+                <strong id="strong7">19</strong>
+            </div>
+            <div id="slider8">
+                <img src="espaca.jpg" class="img-fluid img1">
+                <label class="label1">Spanish Super Cups</label>
+                <strong id="strong8">11</strong>
+            </div>
+            <div id="slider9">
+                <img src="liga.jpg" class="img-fluid img1">
+                <label class="label1">League Cup</label>
+                <strong id="strong9">1</strong>
+            </div>
+            <div id="slider10">
+                <img src="pequeсas.jpg" class="img-fluid img1">
+                <label class="label1">Pequeñas Copas del Mundo</label>
+                <strong id="strong10">2</strong>
+            </div>
+            <div id="slider11">
+                <img src="latinas.jpg" class="img-fluid img1">
+                <label class="label1">Latin Cups</label>
+                <strong id="strong11">2</strong>
+            </div>
+            <div id="slider12">
+                <img src="regionals.jpg" class="img-fluid img1">
+                <label class="label1">Regional Championship</label>
+                <strong id="strong12">18</strong>
+            </div>
+            <div id="slider13">
+                <img src="trofeos.jpg" class="img-fluid img1">
+                <label class="label1">Mancomunados Trophies</label>
+                <strong id="strong13">5</strong>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div id="cupsliderunderdiv"></div>
+    <!--  -->
+    <!-- subscribe bar -->
+    <div id="subscribebar">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-snapchat"></i>
+        <i class="fab fa-twitch"></i>
+    </div>
+    <!-- Menuinfo bar -->
+    <div id="menuinfo">
+        <div id="div1">
+            <ul>
+                <li id="p">FOOTBALL</li>
+                <li class="text">First Team</ii>
+                <li class="text">Academy</li>
+            </ul>
+        </div>
+        <div id="div2">
+            <ul>
+                <li id="p">BASKETBALL</li>
+                <li class="text">Calendar</li>
+                <li class="text">Standings</li>
+                <li class="text">News</li>
+                <li class="text">Videos</li>
+                <li class="text">Photo Gallery</li>
+                <li class="text">WiZink Center</li>
+                <li class="text">Squad</li>
+            </ul>
+        </div>
+        <div id="div3">
+            <ul>
+                <li id="p">THE CLUB</li>
+                <li class="text">Transparency</li>
+                <li class="text">Honours</li>
+                <li class="text">History</li>
+                <li class="text">Santiago Bernabéu Stadium</li>
+                <li class="text">Real Madrid City</li>
+                <li class="text">Foundation</li>
+                <li class="text">News</li>
+            </ul>
+        </div>
+        <div id="div4">
+            <ul>
+                <li id="p">MEMBERS</li>
+                <li class="text">Members services</li>
+                <li class="text">Members</li>
+                <li class="text">Season Ticket Holder</li>
+                <li class="text">Arrangements</li>
+                <li class="text">Benefits and Discounts</li>
+            </ul>
+        </div>
+        <div id="div5">
+            <ul>
+                <li id="p">FANS</li>
+                <li class="text">Fun Clubs</li>
+                <li class="text">Social Networks</li>
+                <li class="text">Wallpapers</li>
+                <li class="text">Promotions</li>
+            </ul>
+        </div>
+        <div id="div6">
+            <ul>
+                <li id="p">Bernabéu Stadium</li>
+            </ul>
+        </div>
+        <div id="div7">
+            <ul>
+                <li id="p">RMTV</li>
+            </ul>
+        </div>
+        <div id="div8">
+            <ul>
+                <li id="p">SHOP</li>
+                <li class="text">Hospitality</li>
+                <li class="text">Press</li>
+                <li class="text">SEE ALL SPONSORS</li>
+            </ul>
+        </div>
+        <img src="tvrealsvg.svg" id="jpg">
+    </div>
+    <!--  -->
+    <div id="menuinfounderdiv"></div>
+    <!--  -->
+    <!-- Footer copyright -->
+    <div id="footer">
+        <label id="text1">Real Madrid © 2021 All rights reserved</label>
+        <label id="text2">SEE ALL SPONSORS</label>
+        <label id="text3">Legal Notice</label>
+        <label id="text4">Privacy Policy</label>
+        <label id="text5">Cookies Policy</label>
+        <label id="text6">Notification management</label>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="slick/slick.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
